@@ -186,7 +186,8 @@ a:hover  i{
 
 @media only screen and (max-width: 884px) {
     body{
-        padding: 0 12px 0 22px;
+        padding: 12px;
+        position: relative;
     }
     
     .h1-container{
@@ -199,9 +200,10 @@ a:hover  i{
         width: 91%;
     }
     .child_2{
-        font-size: 15px;
-        padding: 13px;
-        right: 20px;
+        padding: 10px;
+    }
+    .child_2 p{
+        font-size: 23px !important;
     }
     .h1-container a{
         right: 60px;
